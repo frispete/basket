@@ -36,9 +36,7 @@
 #include "mainwindow.h"
 
 #ifdef WITH_LIBGIT2
-extern "C" {
 #include <git2.h>
-}
 #endif
 
 Application::Application(int &argc, char **argv)
